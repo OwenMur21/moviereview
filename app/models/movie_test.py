@@ -1,7 +1,7 @@
 import unittest
-from movie import Movie
-# from models import movie
-# Movie = movie.Movie
+# from movie import Movie
+from models import movie
+Movie = movie.Movie
 
 class MovieTest(unittest.TestCase):
     '''
